@@ -15,6 +15,7 @@ const clients = new Map();
 // Function to broadcast the current online user count  
 function broadcastOnlineCount() {  
     const onlineCount = clients.size; // Get the count of connected clients  
+    console.log("Broadcasting online count:", onlineCount);
     clients.forEach((client) => {  
         if (client.readyState === WebSocket.OPEN) {  
             client.send(`Online Users Count: ${onlineCount}`);  
