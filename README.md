@@ -23,11 +23,4 @@ A web-based real-time chat application built using **Python (Flask)**, **WebSock
 
 ---
 
-## 📸 Screenshots
-
-> *Add screenshots or a GIF demo of your app here*
-
----
-
-## 📁 Project Structure
 
